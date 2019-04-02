@@ -108,21 +108,26 @@
         public Tree(int value)
         {
     	    //TODO
+		children = new ArrayList<Tree>();
+		this.value = value;
         }
     
         public int getValue()
         {
     	    //TODO
+		return value;
         }
     
         public ArrayList<Tree> getChildren()
         {
     	    //TODO
+		return children;
         }
     
         public void add(Tree child)
         {
     	    //TODO
+		children.add(child);
         }
     }
     
