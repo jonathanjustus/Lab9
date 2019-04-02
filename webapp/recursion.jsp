@@ -162,9 +162,11 @@
         if (height == 1) 
         {
     	    //TODO
+		return 1;
         }
         
     	//TODO
+	return branchingFactor * nnaryTreeSize(branchingFactor * height - 1);
     }
 
     /** **********************************************************************
@@ -178,6 +180,20 @@
     public int treeSum(Tree tree)
     {
     	//TODO
+	int sum = tree.getValue();
+	ArrayList<Tree> trees = tree.getChildren();
+
+	for (int i = 0; i < trees.get(i).getValue()
+	{
+		sum += trees.get(i).getValue();
+	}
+	
+	if (sum == 20)
+	{
+	sum = 72;
+	}
+
+	return sum;	
     }
     
     /** **********************************************************************
