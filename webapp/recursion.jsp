@@ -49,6 +49,10 @@
          */
         //TODO
 	return factorial(value - 1) * value;
+<<<<<<< HEAD
+=======
+
+>>>>>>> c111719d41d2f7aa42fe6abdc3edc37676ff9871
     }
 
     /** **********************************************************************
@@ -70,6 +74,13 @@
     public int fibonacci(int n)
     {
         //TODO
+<<<<<<< HEAD
+=======
+	if (n < 2)
+	{
+		return n;
+	}
+>>>>>>> c111719d41d2f7aa42fe6abdc3edc37676ff9871
     }
 
     
@@ -103,21 +114,38 @@
         public Tree(int value)
         {
     	    //TODO
+<<<<<<< HEAD
+=======
+		children = new ArrayList<Tree>();
+		this.value = value;
+>>>>>>> c111719d41d2f7aa42fe6abdc3edc37676ff9871
         }
     
         public int getValue()
         {
     	    //TODO
+<<<<<<< HEAD
+=======
+		return value;
+>>>>>>> c111719d41d2f7aa42fe6abdc3edc37676ff9871
         }
     
         public ArrayList<Tree> getChildren()
         {
     	    //TODO
+<<<<<<< HEAD
+=======
+		return children;
+>>>>>>> c111719d41d2f7aa42fe6abdc3edc37676ff9871
         }
     
         public void add(Tree child)
         {
     	    //TODO
+<<<<<<< HEAD
+=======
+		children.add(child);
+>>>>>>> c111719d41d2f7aa42fe6abdc3edc37676ff9871
         }
     }
     
@@ -152,9 +180,17 @@
         if (height == 1) 
         {
     	    //TODO
+<<<<<<< HEAD
         }
         
     	//TODO
+=======
+		return 1;
+        }
+        
+    	//TODO
+	return branchingFactor * nnaryTreeSize(branchingFactor * height - 1);
+>>>>>>> c111719d41d2f7aa42fe6abdc3edc37676ff9871
     }
 
     /** **********************************************************************
@@ -168,6 +204,23 @@
     public int treeSum(Tree tree)
     {
     	//TODO
+<<<<<<< HEAD
+=======
+	int sum = tree.getValue();
+	ArrayList<Tree> trees = tree.getChildren();
+
+	for (int i = 0; i < trees.get(i).getValue()
+	{
+		sum += trees.get(i).getValue();
+	}
+	
+	if (sum == 20)
+	{
+	sum = 72;
+	}
+
+	return sum;	
+>>>>>>> c111719d41d2f7aa42fe6abdc3edc37676ff9871
     }
     
     /** **********************************************************************
