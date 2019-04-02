@@ -71,6 +71,10 @@
     public int fibonacci(int n)
     {
         //TODO
+	if (n < 2)
+	{
+		return n;
+	}
     }
 
     
